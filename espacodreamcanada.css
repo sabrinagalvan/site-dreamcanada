@@ -1,0 +1,601 @@
+body {
+	font-family: 'Coustard', serif;
+}
+
+.logodreamcanada {
+	max-width: 15%;
+    margin: 0 3%;
+    border: 6px solid rgb(0,0,0);
+    border-radius: 20px;
+}
+
+header {
+	max-width: 100%;
+    background: url(cabecarioprodutos.jpg) 100%;
+    padding: 30px 0;
+    border: 6px solid rgb(0,0,0);
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 40%;
+}
+
+nav {
+	width: 800px;
+    position: absolute;
+    top: -80px;
+    right: 0;
+}
+
+nav li {
+    font-size: 40px;
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+nav a {
+    background: rgb(0,206,209);
+    color: rgb(0,0,0);
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    border: 4px solid rgb(0,0,0);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: rgb(255,255,255);
+}
+
+nav a:active {
+    border-color: rgb(255,255,255);
+}
+
+
+#foto {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.espacodreamcanada {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    transition: 0.5s all;
+}
+
+.espacodreamcanada li {
+    max-width: 32%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    background: rgb(0,206,209);
+    margin: 0 0.45%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 6px solid rgb(0,0,0);
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px 1px rgb(0,0,0), -1px -1px 8px 1px rgb(0,0,0);
+}
+
+.espacodreamcanada a {
+    color: rgb(0,0,0);
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.espacodreamcanada li:hover {
+    background: rgb(255,255,255);
+}
+
+.espacodreamcanada li:active {
+   border-color: rgb(255,255,255);
+}
+
+.espacodreamcanada h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.espacodreamcanada a:hover h2 {
+    font-size: 33px;
+    transition: 0.5s all;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background: rgb(0,139,139);
+    padding: 40px 0;
+    border-top: 6px solid rgb(0,0,0);
+}
+
+.copyright {
+    font-size: 12px;
+    margin: 30px 0 0;
+}
+
+p {
+    font-size: 23px;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+#logorodape {
+    max-width: 200px;
+    border: 6px solid rgb(0,0,0);
+    border-radius: 20px;
+}
+
+
+main {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+form label, form legend {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    text-align: center;
+    display: block;
+    margin: 0px 200px 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.turno {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.checkbox {
+    margin: 20px 0;
+    margin-top: 30px;
+}
+
+.enviar {
+    width: 35%;
+    padding: 15px 0;
+    background: rgb(0,206,209);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border: 4px solid rgb(0,0,0);
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.enviar:hover {
+    background: rgb(255,255,255);
+    transform: scale(1.1);
+}
+
+.enviar:active {
+    border-color: rgb(255,255,255);
+}
+
+table {
+    margin: 20px 230px 40px;
+    margin-top: 100px;
+    box-shadow: 3px 3px 15px 3px rgb(0,0,0), -3px -3px 15px 3px rgb(0,0,0);
+}
+
+thead {
+    background: rgb(194, 250, 250);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    margin: 0px 20px 20px;
+    border: 3px solid rgb(0,0,0);
+    padding: 12px 15px;
+    width: 230px;
+    
+}
+
+.turismo {
+    background: rgb(255,255,255);
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 10px 0px 50px 0px;
+    padding: 10px;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+
+h4 {
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+
+.intercambio {
+    background: rgb(255,255,255);
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 10px 0px 50px 0px;
+    padding: 0px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+h5 {
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+
+.imigrar {
+    background: rgb(255,255,255);
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 10px 0px 50px 0px;
+    padding: 10px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+h6 {
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+
+strong {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.titulo-mapa {
+    text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0px 600px 40px 600px;
+	margin-top: 80px;
+	clear: left;
+}
+
+.mapa p {
+    font-size:30px;
+}
+
+iframe {
+    margin: 50px 420px;
+    box-shadow: 5px 5px 15px 5px rgb(0,0,0), -5px -5px 15px 5px rgb(0,0,0);
+}
+
+@media screen and (max-width: 480px) {
+    footer, .caixa, header, iframe, nav, #foto, .espacodreamcanada, .espacodreamcanada li, main {
+        width: auto;
+        max-width: auto;
+    }
+
+    .caixa, #foto {
+		margin: auto;
+	}
+
+	.logodreamcanada {
+		margin: 0 3%;
+		border: 1px solid rgb(0,0,0);
+		border-radius: 5px;
+	}
+
+	header {
+
+		background: url(cabecarioprodutos.jpg) 100%;
+		padding: 30px 0;
+		border: 2px solid rgb(0,0,0);
+	}
+	
+	.caixa {
+		position: relative;
+		margin: 0 10%;
+	}
+
+	nav {
+		width: auto;
+		position: absolute;
+		top: 0px;
+		right: 0;
+	}
+	
+	nav li {
+		font-size: 10px;
+		display: inline;
+		margin: 0 10px 0 0;
+	}
+	
+	nav a {
+		background: rgb(0,206,209);
+		color: rgb(0,0,0);
+		font-weight: bold;
+		font-size: 10px;
+		text-decoration: none;
+		border: 1px solid rgb(0,0,0);
+		border-radius: 5px;
+		padding: 5px;
+	}
+
+	#foto {
+        display: inline-block;
+    }
+    
+    .espacodreamcanada {
+        margin: 0 auto;
+        padding: 50px 0;
+        transition: 0.5s all;
+    }
+    
+    .espacodreamcanada li {
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+        background: rgb(0,206,209);
+        margin: 0 0.2%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid rgb(0,0,0);
+        border-radius: 20px;
+        box-shadow: 0.3px 0.3px 2px 0.3px rgb(0,0,0), -0.3px -0.3px 2px 0.3px rgb(0,0,0);
+    }
+    
+    .espacodreamcanada a {
+        color: rgb(0,0,0);
+        font-weight: bold;
+        font-size: 10px;
+        text-decoration: none;
+        line-height: 1.5;
+    }
+    
+    .espacodreamcanada h2 {
+        font-size: 10px;
+        font-weight: bold;
+        margin: 10px 0px;
+    }
+    
+    .espacodreamcanada a:hover h2 {
+        font-size: 12px;
+        transition: 0.5s all;
+    }
+
+    p {
+        font-size: 8px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    main {
+        margin: 0 auto;
+    }
+
+
+
+    form {
+        margin: 10px 0;
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    form label, form legend {
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        margin: 0 0 10px;
+    }
+    
+    .input-padrao {
+        text-align: center;
+        display: block;
+        margin: 0px 70px 10px;
+        padding: 10px 25px;
+        width: 50%;
+    }
+    
+    .turno {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    
+    .checkbox {
+        margin: 20px 0;
+        margin-top: 30px;
+    }
+    
+    .enviar {
+        width: 35%;
+        padding: 15px 0;
+        background: rgb(0,206,209);
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+        border: 4px solid rgb(0,0,0);
+        border-radius: 20px;
+        transition: 1s all;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .enviar:hover {
+        background: rgb(255,255,255);
+        transform: scale(1.1);
+    }
+    
+    .enviar:active {
+        border-color: rgb(255,255,255);
+    }
+    
+    table {
+        margin: 20px 30px 40px;
+        margin-top: 50px;
+        box-shadow: 3px 3px 15px 3px rgb(0,0,0), -3px -3px 15px 3px rgb(0,0,0);
+    }
+    
+    thead {
+        background: rgb(194, 250, 250);
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    tbody {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    td, th {
+        margin: 0px 20px 20px;
+        border: 1px solid rgb(0,0,0);
+        padding: 12px 15px;
+        width: 230px;
+        
+    }
+
+    .titulo-mapa {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0px 100px 40px 100px;
+        margin-top: 50px;
+        clear: left;
+    }
+    
+    .mapa p {
+        font-size: 20px;
+    }
+    
+    iframe {
+        margin: 50px 40px;
+        box-shadow: 5px 5px 15px 5px rgb(0,0,0), -5px -5px 15px 5px rgb(0,0,0);
+    }
+
+
+    .turismo {
+        background: rgb(255,255,255);
+        color: rgb(0,0,0);
+        text-align: center;
+        font-weight: bold;
+        font-size: 28px;
+        margin: 10px 0px 50px 0px;
+        padding: 10px;
+        padding-left: 30px;
+        line-height: 1.5;
+    }
+    
+    h4 {
+        color: rgb(0,0,0);
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        margin: 20px 0px 20px 0px;
+        padding: 10px;
+    }
+    
+    .intercambio {
+        background: rgb(255,255,255);
+        color: rgb(0,0,0);
+        text-align: center;
+        font-weight: bold;
+        font-size: 28px;
+        margin: 10px 0px 50px 0px;
+        padding: 0px;
+        width: 100%;
+        line-height: 1.5;
+    }
+    
+    h5 {
+        color: rgb(0,0,0);
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        margin: 20px 0px 20px 0px;
+        padding: 10px;
+    }
+    
+    .imigrar {
+        background: rgb(255,255,255);
+        color: rgb(0,0,0);
+        text-align: center;
+        font-weight: bold;
+        font-size: 28px;
+        margin: 10px 0px 50px 0px;
+        padding: 10px;
+        width: 100%;
+        line-height: 1.5;
+    }
+    
+    h6 {
+        color: rgb(0,0,0);
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        margin: 20px 0px 20px 0px;
+        padding: 10px;
+    }
+    
+    strong {
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    footer {
+		margin-top: 50px;
+		text-align: center;
+		background: rgb(0,139,139);
+		padding: 40px 0;
+		border-top: 2px solid rgb(0,0,0);
+		clear: left;
+	}
+	
+	.copyright {
+		font-size: 10px;
+		margin: 30px 0 0;
+	}
+	
+	#logorodape {
+		width: 25%;
+		border: 2px solid rgb(0,0,0);
+		border-radius: 10px;
+	}
+
+}

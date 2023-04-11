@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Contato DreamCanada</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="espacodreamcanada.css">
+        <link href="https://fonts.googleapis.com/css2?family=Coustard&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="mapleleaf.png">
+    </head>
+    <body>
+        <header>
+            <h1><img class="logodreamcanada" src="logodreamcanada.png" alt="Logotipo DreamCanada"></h1>
+            <div class="caixa">
+                <nav>
+                    <li><a href="dreamcanada.html">Home</a></li>
+                    <li><a href="espacodreamcanada.html">Espaço DreamCanada</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="60"rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <fieldset>
+                    <legend>Melhor opção para entrarmos em contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                        
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                        
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                </fieldset>
+
+                <fieldset> 
+                    <legend>Melhor horário para entrarmos em contato?</legend>
+                    <select class="turno">
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber novidades por email?</label>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aberto de:</th>
+                        <th>Das:</th>
+                    </tr>
+                </thead> 
+                <tbody>   
+                    <tr>
+                        <td>Segunda à Sexta</td>
+                        <td>9h às 18h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <section class="mapa">
+            <h3 class="titulo-mapa">Nosso endereço!</h3>
+            <p>Nosso estabelecimento se encontra no endereço à baixo:</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1835.1731311963026!2d-48.9223059418063!3d-23.084416996230406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c127fc4be026f7%3A0xb720e4780e9305d1!2sDreamCanada!5e0!3m2!1spt-BR!2sbr!4v1679185679005!5m2!1spt-BR!2sbr" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <footer>
+            <img id=logorodape src="logorodape.png" alt="Logotipo DreamCanada">
+            <p class="copyright">&copy; Copyright DreamCanada - 2023</p>
+        </footer>
+    </body>
+</html>
+
+
+
