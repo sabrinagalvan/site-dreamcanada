@@ -95,6 +95,7 @@ p {
 	margin: 50px 100px;
 	margin-top: 50px;
 	line-height: 1.5;
+	text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
 }
 
 .primeiromundo {
