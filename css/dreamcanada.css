@@ -111,6 +111,7 @@ strong {
 	font-size: 40px;
 	font-style: italic;
 	margin: 5% 5%;
+	text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
 }
 
 .beneficios {
