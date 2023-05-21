@@ -126,6 +126,7 @@ p {
     font-size: 23px;
     text-align: center;
     margin: 15px 0px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
 }
 
 #logorodape {
