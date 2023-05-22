@@ -136,6 +136,7 @@ p {
     max-width: 200px;
     border: 6px solid rgb(0,0,0);
     border-radius: 20px;
+    box-shadow: 1px 1px 5px 2.5px rgb(255, 255, 255), -1px -1px 5px 2.5px rgb(255, 255, 255);
 }
 
 
