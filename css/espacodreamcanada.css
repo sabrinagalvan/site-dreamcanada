@@ -220,6 +220,7 @@ tbody {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 5);
 }
 
 td, th {
