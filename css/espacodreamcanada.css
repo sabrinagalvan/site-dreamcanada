@@ -305,6 +305,7 @@ strong {
 	margin: 0px 600px 40px 600px;
 	margin-top: 80px;
 	clear: left;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 5);
 }
 
 .mapa p {
