@@ -213,6 +213,7 @@ thead {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 5);
 }
 
 tbody {
