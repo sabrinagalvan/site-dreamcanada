@@ -252,6 +252,28 @@ form label, form legend {
     margin-top: 30px;
 }
 
+.checkbox input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 35px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0,139,139);
+    border: 3px solid rgb(0,139,139);
+    border-radius: 0px;
+    position: relative;
+    margin-right: 15px;
+  }
+
+  .checkbox input:checked::before {
+    content: "\2713";
+    position: absolute;
+    top: -15px;
+    left: -5px;
+    color: #ffffff;
+  }
+
 .enviar {
     width: 35%;
     padding: 15px 0;
