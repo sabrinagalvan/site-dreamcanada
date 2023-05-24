@@ -160,6 +160,7 @@ form label, form legend {
 }
 
 .input-padrao {
+    background-color: rgb(216, 252, 252);
     text-align: center;
     display: block;
     margin: 0px 200px 20px;
