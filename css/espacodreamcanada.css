@@ -390,6 +390,7 @@ h6 {
     font-size: 50px;
     margin: 20px 0px 20px 0px;
     padding: 10px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
 }
 
 strong {
