@@ -56,7 +56,6 @@ nav a:active {
     border-color: rgb(255,255,255);
 }
 
-
 #foto {
     max-width: 100%;
     display: inline-block;
@@ -64,8 +63,7 @@ nav a:active {
 }
 
 .espacodreamcanada {
-    max-width: 940px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 50px 0;
     transition: 0.5s all;
     text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
@@ -85,14 +83,6 @@ nav a:active {
     box-shadow: 1px 1px 8px 1px rgb(0,0,0), -1px -1px 8px 1px rgb(0,0,0);
 }
 
-.espacodreamcanada a {
-    color: rgb(0,0,0);
-    font-weight: bold;
-    font-size: 30px;
-    text-decoration: none;
-    line-height: 1.5;
-}
-
 .espacodreamcanada li:hover {
     background: rgb(255,255,255);
 }
@@ -107,9 +97,77 @@ nav a:active {
     margin: 20px 0px;
 }
 
-.espacodreamcanada a:hover h2 {
+.espacodreamcanada:hover h2 {
     font-size: 33px;
     transition: 0.5s all;
+}
+
+.turismo {
+    background: rgb(255,255,255);
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    margin: 100px -150px 300px -150px;
+    padding: 0px;
+    line-height: 1.5;
+    height: 600px;
+}
+
+h4 {
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
+}
+
+.intercambio {
+    background: rgb(255,255,255);
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    margin: 200px -150px 300px -150px;
+    padding: 0px;
+    line-height: 1.5;
+    height: 600px;
+}
+
+h5 {
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 400px 0px 20px 0px;
+    padding: 10px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
+}
+
+.imigrar {
+    background: rgb(255,255,255);
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    margin: 500px -150px 300px -150px;
+    padding: 0px;
+    line-height: 1.5;
+    height: 600px;
+}
+
+h6 {
+    color: rgb(0,0,0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 400px 0px 20px 0px;
+    padding: 10px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
+}
+
+strong {
+	font-size: 45px;
+	text-decoration: underline;
 }
 
 footer {
@@ -325,77 +383,6 @@ td, th {
     padding: 12px 15px;
     width: 230px;
     
-}
-
-.turismo {
-    background: rgb(255,255,255);
-    color: rgb(0,0,0);
-    text-align: center;
-    font-weight: bold;
-    font-size: 28px;
-    margin: 10px 0px 50px 0px;
-    padding: 10px;
-    padding-left: 30px;
-    line-height: 1.5;
-}
-
-h4 {
-    color: rgb(0,0,0);
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 20px 0px 20px 0px;
-    padding: 10px;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
-}
-
-.intercambio {
-    background: rgb(255,255,255);
-    color: rgb(0,0,0);
-    text-align: center;
-    font-weight: bold;
-    font-size: 28px;
-    margin: 10px 0px 50px 0px;
-    padding: 0px;
-    width: 100%;
-    line-height: 1.5;
-}
-
-h5 {
-    color: rgb(0,0,0);
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 20px 0px 20px 0px;
-    padding: 10px;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
-}
-
-.imigrar {
-    background: rgb(255,255,255);
-    color: rgb(0,0,0);
-    text-align: center;
-    font-weight: bold;
-    font-size: 28px;
-    margin: 10px 0px 50px 0px;
-    padding: 10px;
-    width: 100%;
-    line-height: 1.5;
-}
-
-h6 {
-    color: rgb(0,0,0);
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 20px 0px 20px 0px;
-    padding: 10px;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
-}
-
-strong {
-	font-size: 30px;
-	text-decoration: underline;
 }
 
 .titulo-mapa {
