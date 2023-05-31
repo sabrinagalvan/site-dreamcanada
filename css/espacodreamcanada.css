@@ -10,16 +10,16 @@ body {
 .logodreamcanada {
 	max-width: 15%;
     margin: 0 3%;
-    border: 6px solid rgb(0,0,0);
+    border: 6px solid #232323;
     border-radius: 20px;
-    box-shadow: 1px 1px 5px 2.5px rgb(255, 255, 255), -1px -1px 5px 2.5px rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px 5px #232323, -2px -2px 10px 5px rgb(255, 255, 255);
 }
 
 header {
 	max-width: 100%;
     background: url(../images/cabecarioprodutos.jpg) 100%;
     padding: 30px 0;
-    border: 6px solid rgb(0,0,0);
+    border: 6px solid #232323;
 }
 
 .caixa {
@@ -39,16 +39,16 @@ nav li {
     font-size: 40px;
     display: inline;
     margin: 0 0 0 50px;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 3);
 }
 
 nav a {
     background: rgb(0,206,209);
-    color: rgb(0,0,0);
+    color: #232323;
     font-weight: bold;
     font-size: 30px;
     text-decoration: none;
-    border: 4px solid rgb(0,0,0);
+    border: 4px solid #232323;
     border-radius: 20px;
     padding: 10px;
 }
@@ -64,14 +64,14 @@ nav a:active {
 #foto {
     max-width: 100%;
     display: inline-block;
-    box-shadow: 1px 1px 5px 2.5px rgb(0,0,0), -1px -1px 5px 2.5px rgb(0,0,0);
+    box-shadow: 1px 1px 5px 2.5px #232323, -1px -1px 5px 2.5px #232323;
 }
 
 .espacodreamcanada {
     margin: 50px auto;
     padding: 50px 0;
     transition: 0.5s all;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 3);
 }
 
 .espacodreamcanada li {
@@ -83,9 +83,9 @@ nav a:active {
     margin: 0 0.45%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 6px solid rgb(0,0,0);
+    border: 6px solid #232323;
     border-radius: 20px;
-    box-shadow: 1px 1px 8px 1px rgb(0,0,0), -1px -1px 8px 1px rgb(0,0,0);
+    box-shadow: 1px 1px 8px 1px #232323, -1px -1px 8px 1px #232323;
 }
 
 .espacodreamcanada li:hover {
@@ -107,9 +107,17 @@ nav a:active {
     transition: 0.5s all;
 }
 
+h2 {
+    -webkit-text-stroke: 1.5px #232323;
+	text-transform: 1px #232323;
+}
+
+.h2 {
+    -webkit-text-stroke: 0.7px #232323;
+	text-transform: 1px #232323;
+}
+
 .turismo {
-    background: rgb(255,255,255);
-    color: rgb(0,0,0);
     text-align: center;
     font-weight: bold;
     margin: 100px -150px 300px -150px;
@@ -119,18 +127,15 @@ nav a:active {
 }
 
 h4 {
-    color: rgb(0,0,0);
     text-align: center;
     font-weight: bold;
     font-size: 50px;
     margin: 20px 0px 20px 0px;
     padding: 10px;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 3);
 }
 
 .intercambio {
-    background: rgb(255,255,255);
-    color: rgb(0,0,0);
     text-align: center;
     font-weight: bold;
     margin: 200px -150px 300px -150px;
@@ -140,18 +145,15 @@ h4 {
 }
 
 h5 {
-    color: rgb(0,0,0);
     text-align: center;
     font-weight: bold;
     font-size: 50px;
     margin: 400px 0px 20px 0px;
     padding: 10px;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 3);
 }
 
 .imigrar {
-    background: rgb(255,255,255);
-    color: rgb(0,0,0);
     text-align: center;
     font-weight: bold;
     margin: 500px -150px 300px -150px;
@@ -161,13 +163,12 @@ h5 {
 }
 
 h6 {
-    color: rgb(0,0,0);
     text-align: center;
     font-weight: bold;
     font-size: 50px;
     margin: 400px 0px 20px 0px;
     padding: 10px;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 3);
 }
 
 strong {
@@ -180,7 +181,7 @@ footer {
     text-align: center;
     background: rgb(0,139,139);
     padding: 40px 0;
-    border-top: 6px solid rgb(0,0,0);
+    border-top: 6px solid #232323;
 }
 
 .copyright {
@@ -192,12 +193,12 @@ p {
     font-size: 23px;
     text-align: center;
     margin: 15px 0px;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 3);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 3);
 }
 
 #logorodape {
     max-width: 200px;
-    border: 6px solid rgb(0,0,0);
+    border: 6px solid #232323;
     border-radius: 20px;
     box-shadow: 1px 1px 5px 2.5px rgb(255, 255, 255), -1px -1px 5px 2.5px rgb(255, 255, 255);
 }
@@ -212,7 +213,7 @@ form {
     margin: 40px 0;
     text-align: center;
     line-height: 1.5;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 5);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 5);
 }
 
 form label, form legend {
@@ -341,15 +342,15 @@ form label, form legend {
     width: 35%;
     padding: 15px 0;
     background: rgb(0,206,209);
-    color: black;
+    color: #232323;
     font-size: 24px;
     font-weight: bold;
-    border: 4px solid rgb(0,0,0);
+    border: 4px solid #232323;
     border-radius: 20px;
     transition: 1s all;
     cursor: pointer;
     margin-top: 30px;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 5);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 5);
 }
 
 .enviar:hover {
@@ -364,7 +365,7 @@ form label, form legend {
 table {
     margin: 20px 230px 40px;
     margin-top: 100px;
-    box-shadow: 3px 3px 15px 3px rgb(0,0,0), -3px -3px 15px 3px rgb(0,0,0);
+    box-shadow: 3px 3px 15px 3px #232323, -3px -3px 15px 3px #232323;
 }
 
 thead {
@@ -372,19 +373,21 @@ thead {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 5);
+    -webkit-text-stroke: 1.5px #232323;
+	text-transform: 1px #232323;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 5);
 }
 
 tbody {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 5);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 5);
 }
 
 td, th {
     margin: 0px 20px 20px;
-    border: 3px solid rgb(0,0,0);
+    border: 3px solid #232323;
     padding: 12px 15px;
     width: 230px;
     
@@ -397,7 +400,7 @@ td, th {
 	margin: 0px 600px 40px 600px;
 	margin-top: 80px;
 	clear: left;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 5);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 5);
 }
 
 .mapa p {
@@ -406,7 +409,7 @@ td, th {
 
 iframe {
     margin: 50px 420px;
-    box-shadow: 5px 5px 15px 5px rgb(0,0,0), -5px -5px 15px 5px rgb(0,0,0);
+    box-shadow: 5px 5px 15px 5px #232323, -5px -5px 15px 5px #232323;
 }
 
 @media screen and (max-width: 480px) {
@@ -421,7 +424,7 @@ iframe {
 
 	.logodreamcanada {
 		margin: 0 3%;
-		border: 1px solid rgb(0,0,0);
+		border: 1px solid #232323;
 		border-radius: 5px;
 	}
 
@@ -429,7 +432,7 @@ iframe {
 
 		background: url(cabecarioprodutos.jpg) 100%;
 		padding: 30px 0;
-		border: 2px solid rgb(0,0,0);
+		border: 2px solid #232323;
 	}
 	
 	.caixa {
@@ -452,11 +455,11 @@ iframe {
 	
 	nav a {
 		background: rgb(0,206,209);
-		color: rgb(0,0,0);
+		color: #232323;
 		font-weight: bold;
 		font-size: 10px;
 		text-decoration: none;
-		border: 1px solid rgb(0,0,0);
+		border: 1px solid #232323;
 		border-radius: 5px;
 		padding: 5px;
 	}
@@ -479,13 +482,13 @@ iframe {
         margin: 0 0.2%;
         padding: 30px 20px;
         box-sizing: border-box;
-        border: 2px solid rgb(0,0,0);
+        border: 2px solid #232323;
         border-radius: 20px;
-        box-shadow: 0.3px 0.3px 2px 0.3px rgb(0,0,0), -0.3px -0.3px 2px 0.3px rgb(0,0,0);
+        box-shadow: 0.3px 0.3px 2px 0.3px #232323, -0.3px -0.3px 2px 0.3px #232323;
     }
     
     .espacodreamcanada a {
-        color: rgb(0,0,0);
+        color: #232323;
         font-weight: bold;
         font-size: 10px;
         text-decoration: none;
@@ -550,10 +553,10 @@ iframe {
         width: 35%;
         padding: 15px 0;
         background: rgb(0,206,209);
-        color: black;
+        color: #232323;
         font-size: 12px;
         font-weight: bold;
-        border: 4px solid rgb(0,0,0);
+        border: 4px solid #232323;
         border-radius: 20px;
         transition: 1s all;
         cursor: pointer;
@@ -571,7 +574,7 @@ iframe {
     table {
         margin: 20px 30px 40px;
         margin-top: 50px;
-        box-shadow: 3px 3px 15px 3px rgb(0,0,0), -3px -3px 15px 3px rgb(0,0,0);
+        box-shadow: 3px 3px 15px 3px #232323, -3px -3px 15px 3px #232323;
     }
     
     thead {
@@ -589,7 +592,7 @@ iframe {
     
     td, th {
         margin: 0px 20px 20px;
-        border: 1px solid rgb(0,0,0);
+        border: 1px solid #232323;
         padding: 12px 15px;
         width: 230px;
         
@@ -610,13 +613,11 @@ iframe {
     
     iframe {
         margin: 50px 40px;
-        box-shadow: 5px 5px 15px 5px rgb(0,0,0), -5px -5px 15px 5px rgb(0,0,0);
+        box-shadow: 5px 5px 15px 5px #232323, -5px -5px 15px 5px #232323;
     }
 
 
     .turismo {
-        background: rgb(255,255,255);
-        color: rgb(0,0,0);
         text-align: center;
         font-weight: bold;
         font-size: 28px;
@@ -627,7 +628,6 @@ iframe {
     }
     
     h4 {
-        color: rgb(0,0,0);
         text-align: center;
         font-weight: bold;
         font-size: 40px;
@@ -636,8 +636,6 @@ iframe {
     }
     
     .intercambio {
-        background: rgb(255,255,255);
-        color: rgb(0,0,0);
         text-align: center;
         font-weight: bold;
         font-size: 28px;
@@ -648,7 +646,6 @@ iframe {
     }
     
     h5 {
-        color: rgb(0,0,0);
         text-align: center;
         font-weight: bold;
         font-size: 40px;
@@ -657,8 +654,6 @@ iframe {
     }
     
     .imigrar {
-        background: rgb(255,255,255);
-        color: rgb(0,0,0);
         text-align: center;
         font-weight: bold;
         font-size: 28px;
@@ -669,7 +664,6 @@ iframe {
     }
     
     h6 {
-        color: rgb(0,0,0);
         text-align: center;
         font-weight: bold;
         font-size: 40px;
@@ -687,7 +681,7 @@ iframe {
 		text-align: center;
 		background: rgb(0,139,139);
 		padding: 40px 0;
-		border-top: 2px solid rgb(0,0,0);
+		border-top: 2px solid #232323;
 		clear: left;
 	}
 	
@@ -698,7 +692,7 @@ iframe {
 	
 	#logorodape {
 		width: 25%;
-		border: 2px solid rgb(0,0,0);
+		border: 2px solid #232323;
 		border-radius: 10px;
 	}
 
