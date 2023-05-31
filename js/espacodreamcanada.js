@@ -13,7 +13,7 @@ function scrollToTurismo() {
     window.scrollTo({ top: 2950, behavior: 'smooth' });
   }
 
-  const toggleSwitch = document.querySelector('.toggle-switch');
+const toggleSwitch = document.querySelector('.toggle-switch');
 
 toggleSwitch.addEventListener('change', function() {
   const body = document.querySelector('body');
