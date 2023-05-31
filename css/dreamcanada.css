@@ -5,7 +5,86 @@ body {
 .dark-mode {
 	background-color: #333;
 	color: #fff;
-  }
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-left: 1730px;
+	padding: 10px 35px;
+	border: 2px solid #ffffff;
+	border-radius: 34px;
+}
+  
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+  
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #3c3c3c;
+	transition: .4s;
+	border-radius: 34px;
+}
+  
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 24px;
+	width: 24px;
+	left: 5px;
+	bottom: 3px;
+	background-color: rgb(12, 12, 12);
+	transition: .4s;
+	border-radius: 50%;
+}
+  
+input:checked + .slider {
+	background-color: rgb(255, 255, 255);
+}
+  
+input:checked + .slider:before {
+	transform: translateX(47px);
+}
+  
+.slider.round {
+	border-radius: 34px;
+}
+  
+.slider.round:before {
+	border-radius: 50%;
+}
+
+.switch-sun {
+	position: absolute;
+	margin: -2px -34px;
+	font-size: 15px;
+}
+
+.switch-moon {
+	position: absolute;
+	margin: -4px 13px;
+	font-size: 20px;
+	-webkit-text-stroke: 2px #ffffff;
+	text-transform: 1px #ffffff;
+}
+  
+.switch-label:first-child {
+	left: 4px;
+}
+  
+.switch-label:last-child {
+	right: 4px;
+}
 
 .logodreamcanada {
 	max-width: 15%;
