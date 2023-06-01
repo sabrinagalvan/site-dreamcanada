@@ -118,7 +118,6 @@ nav li {
     font-size: 40px;
     display: inline;
     margin: 0 0 0 50px;
-	
 }
 
 nav a {
@@ -155,7 +154,6 @@ nav a:active {
 	margin: 100px 600px;
 	margin-top: 20px;
 	clear: left;
-	text-shadow: 10px 10px 10px rgba(0, 0, 0, 2);
 }
 
 .bandeira {
